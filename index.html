@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature Platter</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3] -->
+    <header class="bg-base-100">
+      <nav class="container mx-auto">
+        <div class="navbar">
+          <div class="flex-1 py-3">
+            <a class=""
+              ><img class="w-40 cursor-pointer" src="c2-assets/logo-header.png"
+            /></a>
+          </div>
+          <div class="flex">
+            <div class="flex gap-6">
+              <a>Product</a>
+              <a>Service</a>
+              <a>Contact us</a>
+            </div>
+            <div class="dropdown dropdown-end">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost btn-circle hidden md:block"
+              >
+                <div class="indicator py-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="hidden md:block">
+              <button class="btn btn-outline btn-success mx-2 w-28 w-117">
+                Login
+              </button>
+              <button class="btn btn-success text-white w-36 py-1 px-8">
+                Register
+              </button>
+            </div>
+          </div>
+          <div>
+            <a href=""
+              ><i
+                class="fa-solid fa-bars block md:hidden bg-base-500 text-3xl px-3"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+      <hr class="border-t-green-600 block md:hidden" />
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
